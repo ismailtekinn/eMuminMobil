@@ -1,5 +1,5 @@
 {
-  "name": "e-order",
+  "name": "eMumin",
   "version": "1.0.0",
   "overrides": {
     "@expo/config-plugins": "~9.0.0"
