@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "E-Mümin",
+    "slug": "e-mumin",
+    "version": "1.0.0",
+
+    "icon": "./src/assets/emuminIcon.jpeg",
+
+    "splash": {
+      "image": "./src/assets/emuminIcon.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#1c2e26"
+    },
+    "ios": {
+      "icon": "./src/assets/emuminIcon.jpeg",
+      "splash": {
+        "image": "./src/assets/emuminIcon.jpeg",
+        "resizeMode": "contain",
+        "backgroundColor": "#1c2e26"
+      }
+    },
+    "android": {
+      "icon": "./src/assets/emuminIcon.jpeg",
+      "package": "com.bybrstekin.triamobil",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/emuminIcon.jpeg",
+        "backgroundColor": "#1c2e26"
+      },
+      "splash": {
+        "image": "./src/assets/emuminIcon.jpeg",
+        "resizeMode": "contain",
+        "backgroundColor": "#1c2e26"
+      }
+    },
+
+    "web": {
+      "favicon": "./src/assets/emuminIcon.jpeg"
+    },
+
+    "extra": {
+      "API_URL": "http://92.113.27.13:3000/api",
+      "eas": {
+        "projectId": "d5315144-aba1-46d3-a860-df072779a9d5"
+      }
+    }
+  }
+}

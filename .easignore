@@ -1,0 +1,18 @@
+New-Item -ItemType File -Path .easignore -Force
+```
+
+Sonra bu dosyayı açın ve şunları ekleyin:
+```
+# Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/.cxx/
+
+# Node
+node_modules/
+
+# Temp
+.expo/
+dist/
+.expo-shared/
